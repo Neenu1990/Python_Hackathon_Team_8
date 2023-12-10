@@ -7,4 +7,3 @@ CREATE TABLE PUBLIC."Temp" (
 COPY PUBLIC."Temp" FROM 'C:\Program Files\PostgreSQL\15\data\Temp.csv' DELIMITER ',' CSV HEADER;
 select * from public."Temp";
 --DROP TABLE PUBLIC."Temp"
-
